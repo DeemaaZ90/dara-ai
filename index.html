@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DARA & Harmoni AI</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; background: #f0f8ff; }
+    header { background: #1e90ff; color: white; padding: 1rem; text-align: center; }
+    .hero-3d { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background: #e6f0ff; text-align: center; }
+    .hero-3d iframe { width: 350px; height: 500px; border: none; }
+    .section { padding: 2rem; }
+    .chatbox, .harmoni { border: 2px solid #1e90ff; border-radius: 10px; padding: 1rem; margin-bottom: 2rem; background: white; }
+    iframe.chat { width: 100%; height: 100px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DARA - AI Bot</h1>
+    <p>Asisten Virtual Prodi AIRO & Deteksi Ekspresi Wajah untuk Rekomendasi Musik</p>
+  </header>
+
+  <div class="hero-3d">
+    <h2>Halo, aku DARA!</h2>
+    <p>Selamat datang di Prodi AIRO. Aku siap membantumu mengenal dunia AI dan Robotika.</p>
+    <iframe src="https://models.readyplayer.me/6836c7c6861fe22627f4176e.glb" allow="camera; microphone"></iframe>
+    <p><em>(Interaksi lebih lanjut bisa diakses di bawah)</em></p>
+  </div>
+
+  <div class="section">
+    <div class="harmoni">
+      <h3>🎧 Harmoni AI</h3>
+      <p>Deteksi ekspresi wajahmu dan dapatkan rekomendasi lagu yang cocok!</p>
+      <button onclick="alert('Fitur deteksi ekspresi akan aktif di versi selanjutnya.')">Deteksi Ekspresi</button>
+    </div>
+
+    <div class="chatbox">
+      <h3>💬 Chat dengan DARA</h3>
+      <iframe class="chat" src="https://example-chatbot-webpage.com/embed"></iframe>
+    </div>
+  </div>
+
+  <footer style="text-align:center; padding:1rem; background:#1e90ff; color:white">
+    &copy; 2025 Program Studi AIRO - Universitas 17 Agustus 1945 Surabaya
+  </footer>
+</body>
+</html>
